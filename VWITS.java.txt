@@ -1,0 +1,23 @@
+package Ashwini;
+
+public class Employe {
+ 
+	   private int id;
+	   private double salary;
+	    
+	   public Employe(int id,double salary)
+	   {
+		    this .id = id;
+		    this .salary= salary;
+	   }
+	  public double getSalry() {
+		   return salary;
+	  }
+	@Override
+	public String toString() {
+		return "Employe [id=" + id + ", salary=" + salary + ", getSalry()=" + getSalry() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	    
+
+}
