@@ -1,7 +1,7 @@
 package Ashwini;
 
 public class EvenOdd {
-
+      //   Even odd
 	public static void main(String[] args) {
 		int no = 12;
 		if(no % 2 == 0)
